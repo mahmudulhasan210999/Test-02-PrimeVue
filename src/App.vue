@@ -1,15 +1,22 @@
 <template>
-    <div>
-        <HelloWorld />
+    <div class="flex">
+        <div class="w-1/5">
+            <Navbar/>
+        </div>
+        <div class="w-4/5">
+            <Home/>
+        </div>
     </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import Navbar from './components/Navbar/Navbar.vue'
+import Home from './components/Home/Home.vue'
 
 export default {
     components: {
-        HelloWorld
+        Navbar,
+        Home
     }
 }
 </script>
