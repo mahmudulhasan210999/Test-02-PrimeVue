@@ -1,11 +1,13 @@
 <template>
-    <div class="flex flex-col items-center justify-center bg-secondary min-h-screen">
-        <p class="text-lg font-medium cursor-pointer text-gray-700">Home</p>
-        <p class="text-lg pt-2 font-medium cursor-pointer text-gray-700">About</p>
-        <p class="text-lg pt-2 font-medium cursor-pointer text-gray-700">Service</p>
-        <p class="text-lg pt-2 font-medium cursor-pointer text-gray-700">Portfolio</p>
-        <p class="text-lg pt-2 font-medium cursor-pointer text-gray-700">News</p>
-        <p class="text-lg pt-2 font-medium cursor-pointer text-gray-700">Contact</p>
+    <div class="flex flex-col items-center justify-center bg-secondary min-h-screen ">
+        <div class="text-textColor">
+            <p class="text-lg font-medium cursor-pointer hover:text-white">Home</p>
+            <p class="text-lg pt-2 font-medium cursor-pointer hover:text-white">About</p>
+            <p class="text-lg pt-2 font-medium cursor-pointer hover:text-white">Service</p>
+            <p class="text-lg pt-2 font-medium cursor-pointer hover:text-white">Portfolio</p>
+            <p class="text-lg pt-2 font-medium cursor-pointer hover:text-white">News</p>
+            <p class="text-lg pt-2 font-medium cursor-pointer hover:text-white">Contact</p>
+        </div>
     </div>
 </template>
 

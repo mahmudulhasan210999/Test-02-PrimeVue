@@ -1,9 +1,9 @@
 <template>
     <div class="flex">
-        <div class="w-1/5">
+        <div class="w-1/6">
             <Navbar/>
         </div>
-        <div class="w-4/5">
+        <div class="w-5/6">
             <Home/>
         </div>
     </div>
